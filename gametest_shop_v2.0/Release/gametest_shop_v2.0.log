@@ -1,0 +1,43 @@
+﻿Build started 10/25/2014 5:28:22 PM.
+     1>Project "C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\gametest_shop_v2.0\gametest_shop_v2.0.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\gametest_shop_v2.0.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\gametest_shop_v2.0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt game.c graphics.c
+         game.c
+     1>game.c(57): warning C4101: 'spriteCount1mx' : unreferenced local variable
+     1>game.c(58): warning C4101: 'spriteCount1my' : unreferenced local variable
+     1>game.c(70): warning C4101: 'spriteArray3' : unreferenced local variable
+     1>game.c(66): warning C4101: 'spriteCount2' : unreferenced local variable
+     1>game.c(65): warning C4101: 'spriteArray2' : unreferenced local variable
+     1>game.c(71): warning C4101: 'spriteCount3' : unreferenced local variable
+     1>game.c(180): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>game.c(196): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>game.c(202): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>game.c(204): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+         graphics.c
+     1>graphics.c(181): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>graphics.c(200): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\Release\gametest_shop_v2.0.exe" /NOLOGO SDL.lib SDLmain.lib SDL_image.lib SDL_ttf.lib SDL_net.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\gametest_shop_v2.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\Release\gametest_shop_v2.0.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\Release\gametest_shop_v2.0.lib" /MACHINE:X86 Release\game.obj
+         Release\graphics.obj
+         Generating code
+     1>c:\users\patrick\documents\visual studio 2010\projects\gametest_shop_v2.0\gametest_shop_v2.0\game.c(35): warning C4715: 'spotCheck' : not all control paths return a value
+         Finished generating code
+         gametest_shop_v2.0.vcxproj -> C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\Release\gametest_shop_v2.0.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\Release\gametest_shop_v2.0.exe;#1" /manifest Release\gametest_shop_v2.0.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\gametest_shop_v2.0.unsuccessfulbuild".
+         Touching "Release\gametest_shop_v2.0.lastbuildstate".
+     1>Done Building Project "C:\Users\Patrick\Documents\Visual Studio 2010\Projects\gametest_shop_v2.0\gametest_shop_v2.0\gametest_shop_v2.0.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36
