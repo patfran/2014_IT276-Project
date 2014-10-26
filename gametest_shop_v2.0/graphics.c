@@ -1,3 +1,7 @@
+/* stripped the code down as much as possible.
+ * changed to windowed, changed resolution to 800x600
+ */
+
 #include <string.h>
 #include <stdlib.h>
 #include "graphics.h"
@@ -271,7 +275,7 @@ void InitMouse()
 	if(Msprite == NULL)
 		fprintf(stdout,"mouse didn't load\n");
 	Mouse.state = 0;
-	Mouse.shown = 0;
+	//Mouse.shown = 0;
 	Mouse.frame = 0;
 }
 

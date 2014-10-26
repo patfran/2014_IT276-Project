@@ -8,7 +8,12 @@
 
 extern SDL_Surface *screen;
 extern SDL_Surface *buffer; /*pointer to the draw buffer*/
+//extern SDL_Surface *message;
 extern SDL_Rect Camera;
+
+//TTF_Font* font = NULL;
+//SDL_Color textColor = {0, 0, 0};
+
 
 //trying to prevent multiple sprites in one place. What am I even doing?
 int spotCheck( int coordCheck, int arrayCheck[], int arraySize, int coord )
@@ -44,6 +49,9 @@ int main( int argc, char *argv[] )
 {
 	SDL_Surface *temp = NULL;
 	SDL_Surface *bg;
+
+	//font = TTF_OpenFont( "fonts/font.ttf", 25);
+	//int mess = 100;
 
 	Uint8 *keys;
 	char imagepath[512];
@@ -91,6 +99,9 @@ int main( int argc, char *argv[] )
 	tile2 = LoadSprite("images/cereal.bmp",32,32); //cereal
 	tile3 = LoadSprite("images/candy.bmp",32,32); //candy
 	customer = LoadSprite("images/customer.bmp",32,32); //customer
+
+	//message = TTF_RenderText_Solid( font, "test message", textColor );
+	
 
 	done = 0;
 
@@ -155,8 +166,11 @@ int main( int argc, char *argv[] )
 
 		}
 		if(keys[SDLK_ESCAPE])
+		{
 			done = 1;
+		}
 		
+		//DrawSprite( NULL, message, 100, 100, 0); 
 	}
 
 
